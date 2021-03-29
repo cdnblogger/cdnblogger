@@ -11,4 +11,4 @@ The easiest way to make your first post is to edit this one. Go into /_posts/ an
 
 <code>test kode</code>
 
-<pre>#box{margin:0;padding:0}</pre>
+<pre><code class="higlights">#box{margin:0;padding:0}</code></pre>
