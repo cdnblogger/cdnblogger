@@ -237,12 +237,16 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-size: 18px;
+   font-size: 14px;
+    background: #8dcf3f;
+    padding: 6px 21px;
+    border-radius: 12px;
 
   @include mobile {
     float: none;
-    margin-top: 9px;
+    margin-top: 15px;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   a {
@@ -294,6 +298,13 @@ nav {
   }
 .entry {
 	line-height:1.6em;
+}
+.date {
+	font-size:13px;
+	margin-top:30px;
+}
+code {
+	font-size:14px;
 }
 }
 
