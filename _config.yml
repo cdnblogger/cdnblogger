@@ -18,7 +18,7 @@ avatar: https://cdnblogger.github.io/images/avatar3.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: kangismet@gmail.com
+  email: 
   facebook:
   flickr:
   github: cdnblogger
@@ -30,6 +30,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
+  website: kang-ismet.com
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
