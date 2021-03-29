@@ -222,7 +222,8 @@ img {
   font-weight: 700;
   font-size: 28px;
 }
-
+.site-name a{color:$white;}
+.site-name a:hover{color:$white;}
 .site-description {
   margin: -5px 0 0 0;
   color: $white;
@@ -238,9 +239,7 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-size: 18px;
    font-size: 14px;
-    background: #8dcf3f;
-    padding: 6px 21px;
-    border-radius: 12px;
+    font-family:TruenoBd, Arial, sans-serif;
 
   @include mobile {
     float: none;
