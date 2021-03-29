@@ -71,6 +71,9 @@ h1 {
 h1.sitename a {
   color: $white;
 }
+h1.sitename a:hover, nav a:hover, a.read-more, a.read-more:hover {
+  color: $white;
+}
 h2 {
   font-size: 24px;
 }
@@ -250,7 +253,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $white;
     }
   }
 }
@@ -288,6 +291,7 @@ nav {
 	background: #25bea1;
     padding: 5px 15px;
     border-radius: 6px;
+   font-family: $helveticaNeue;
   }
 }
 
