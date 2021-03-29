@@ -13,13 +13,31 @@
 /* BASE RULES */
 /**************/
 
+@font-face{
+font-family:'Sentinel';
+src:url('https://kangismet.github.io/fonts/Sentinel-Medium.eot');
+src:url('https://kangismet.github.io/fonts/Sentinel-Medium.eot?#iefix') format('embedded-opentype'),
+url('https://kangismet.github.io/fonts/Sentinel-Medium.ttf') format('truetype');
+font-weight:normal;
+font-style:normal
+}
+@font-face{
+font-family:'TruenoBd';
+src:url('https://kangismet.github.io/fonts/TruenoBd.eot');
+src:url('https://kangismet.github.io/fonts/TruenoBd.eot?#iefix') format('embedded-opentype'),
+url('https://kangismet.github.io/fonts/TruenoBd.ttf') format('truetype');
+font-weight:500;
+font-style:bold;
+}
+
 html {
   font-size: 100%;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font-family:Sentinel, Georgia, serif;
+  font-size:18px;
   color: $darkGray;
 }
 
@@ -31,7 +49,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: TruenoBd, Arial, sans-serif;
   color: $darkerGray;
   font-weight: bold;
 
@@ -50,7 +68,9 @@ h1 {
     color: inherit;
   }
 }
-
+h1.sitename a {
+  color: $white;
+}
 h2 {
   font-size: 24px;
 }
@@ -152,6 +172,7 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background: #9961c9;
 }
 
 .masthead {
@@ -192,17 +213,16 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-family: TruenoBd, Arial, sans-serif;
+  font-weight: 700;
   font-size: 28px;
-  letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -213,7 +233,6 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
@@ -225,10 +244,9 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $white;
     text-align: right;
     font-weight: 300;
-    letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
@@ -257,7 +275,7 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
   }
 
@@ -266,8 +284,10 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
     font-size: 15px;
+	background: #25bea1;
+    padding: 5px 15px;
+    border-radius: 6px;
   }
 }
 
