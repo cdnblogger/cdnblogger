@@ -13,7 +13,7 @@ permalink: /user/rcomments/
  showAvatar  = true,
  avatarSize  = 35,
  roundAvatar = true,
- characters  = 30,
+ characters  = 25,
  defaultAvatar  = "http://www.gravatar.com/avatar/?d=mm",
  hideCredits = true;
  maxfeeds=50,
