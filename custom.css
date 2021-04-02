@@ -36,11 +36,12 @@
  .list-entries{width:90%}
  }
 
-.kangismet-recent-container{width:230px;padding:0px}
+.kangismet-recent-container{width:230px;padding:0px;font-family:Arial, sans-serif;}
 ul.kangismet_recent{list-style:none;margin:0;padding:0;} 
 .kangismet_recent li{background:none !important;margin:0 0 6px !important;padding:3px  
 !important;display:block;clear:both;overflow:hidden;list-style:none; max-height: 100px;} 
-.kangismet_recent a {text-decoration:none;font-size: 14px}
+.kangismet_recent a {text-decoration:none;font-size: 14px;color:#161616}
+.kangismet_recent a:hover{color:#666}
 .avatarImage{padding:3px;background:#fefefe;-webkit-box-shadow:0 1px 1px #ccc;-moz-box-shadow:0 1px 1px #ccc;box-shadow:0 1px 1px 
 #ccc;float:left;margin:0 6px 0 0;position:relative;overflow:hidden;} 
 .avatarRound{-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;width:35px;height:35px} 
