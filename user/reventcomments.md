@@ -20,7 +20,7 @@ permalink: /user/rcomments/
  adminBlog='Kang Ismet';
 //]]>
 </script>
-<script type="text/javascript" src="https://rawcdn.githack.com/kangismet/blog-kang-ismet-new/701fb5633ad9dc6e4512d52db777adc2cca48ea8/recentcomments3.js"></script>
+<script type="text/javascript"  src="{{ site.baseurl }}/js/recentcomments3.js"></script>
 <script type="text/javascript" src="https://www.kang-ismet.com/feeds/comments/default?alt=json&amp;callback=kangismet_recent&amp;&amp;max-results=50">
 </script>
 </div>
