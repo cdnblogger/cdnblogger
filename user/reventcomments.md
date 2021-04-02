@@ -1,25 +1,26 @@
 ---
 layout: blankdemo
 title: Blog Kang Ismet Comments
-permalink: /user/comments/
+permalink: /user/rcomments/
 ---
 
 <div class="kangismet-recent-container">
-  <script type="text/javascript">
+
+<script type="text/javascript">
 //<![CDATA[
     var
  numComments  = 5,
  showAvatar  = true,
  avatarSize  = 35,
  roundAvatar = true,
- characters  = 40,
+ characters  = 30,
  defaultAvatar  = "http://www.gravatar.com/avatar/?d=mm",
  hideCredits = true;
- maxfeeds=40,
+ maxfeeds=50,
  adminBlog='Kang Ismet';
 //]]>
 </script>
-<script src="{{ site.baseurl }}/js/recentcomments3.js" type="text/javascript"></script>
-<script type="text/javascript" src="https://kang-ismet.com/feeds/comments/default?alt=json&amp;callback=kangismet_recent&amp;&amp;max-results=40">
+<script type="text/javascript" src="https://rawcdn.githack.com/kangismet/blog-kang-ismet-new/701fb5633ad9dc6e4512d52db777adc2cca48ea8/recentcomments3.js"></script>
+<script type="text/javascript" src="https://www.kang-ismet.com/feeds/comments/default?alt=json&amp;callback=kangismet_recent&amp;&amp;max-results=50">
 </script>
 </div>
