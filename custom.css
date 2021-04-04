@@ -13,6 +13,9 @@
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 16px;
 }
+a:link {color: #7288ce;text-decoration: none;}
+a:hover {color:#888}
+a:ctive, a:focus {color:#cd510e}
 
 /* Basic Skin for Multi Feed Loader */
   #feed-list-container {font-family:'PT Sans', sans-serif;font-size:14px;font-weight:16px;padding-left:15px}
