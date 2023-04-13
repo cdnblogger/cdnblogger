@@ -89,8 +89,8 @@
   --bs-tertiary-color-rgb: 33, 37, 41;
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
-  --bs-body-bg: #eff2f6;
-  --bs-body-bg-rgb: 239, 242, 246;
+  --bs-body-bg: #fffdfc;
+  --bs-body-bg-rgb: 255, 253, 252;
   --bs-heading-color: var(--bs-gray-800);
   --bs-link-color: #0f6fec;
   --bs-link-color-rgb: 15, 111, 236;
